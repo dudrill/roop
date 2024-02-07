@@ -16,8 +16,8 @@ NAME = 'ROOP.FACE-SWAPPER'
 
 
 def pre_check() -> bool:
-    download_directory_path = resolve_relative_path('../models')
-    conditional_download(download_directory_path, ['https://huggingface.co/lkw99/roop_model/resolve/main/inswapper_128.onnx'])
+    # download_directory_path = resolve_relative_path('../models')
+    # conditional_download(download_directory_path, ['https://huggingface.co/lkw99/roop_model/resolve/main/inswapper_128.onnx'])
     return True
 
 
