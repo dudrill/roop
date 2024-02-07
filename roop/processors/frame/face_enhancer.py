@@ -17,8 +17,8 @@ NAME = 'ROOP.FACE-ENHANCER'
 
 
 def pre_check() -> bool:
-    download_directory_path = resolve_relative_path('../models')
-    conditional_download(download_directory_path, ['https://huggingface.co/datasets/kkchi/123123/resolve/main/GFPGANv1.4.pth'])
+    # download_directory_path = resolve_relative_path('../models')
+    # conditional_download(download_directory_path, ['https://huggingface.co/datasets/kkchi/123123/resolve/main/GFPGANv1.4.pth'])
     return True
 
 
